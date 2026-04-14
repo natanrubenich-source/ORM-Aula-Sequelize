@@ -6,11 +6,13 @@ const UserRouter = Router();
 ////// Rotas do User
 
 // GET - Puxar todos os User
-UserRouter.get('/', userCtrl.getUser)
+UserRouter.get('/', userCtrl.getUser);
 
 // GET - Puxar um User por ID
+UserRouter.get('/:id', userCtrl.getUserId);
 
 // POST - Cadastrar User
+
 // Delete - Destruir um registro de usuario por ID
 
 
