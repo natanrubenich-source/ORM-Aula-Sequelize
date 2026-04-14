@@ -12,6 +12,7 @@ UserRouter.get('/', userCtrl.getUser);
 UserRouter.get('/:id', userCtrl.getUserId);
 
 // POST - Cadastrar User
+UserRouter.post('/', userCtrl.createUser);
 
 // Delete - Destruir um registro de usuario por ID
 

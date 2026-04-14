@@ -21,7 +21,7 @@ export const User = sequelize.define('User',{
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
-            len: [8, 20] // Senha deve ter entre 8 e 20 caracteres
+            len: [8, 255] // Senha deve ter entre 8 e 20 caracteres
     }
 }
 });
