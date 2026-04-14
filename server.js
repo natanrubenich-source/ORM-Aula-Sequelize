@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import express from 'express';
 import sequelize from'./src/database/db.js';
-import { UserRouter } from './src/router/user.router.js'
+import UserRouter from './src/router/user.router.js'
 
 // importar o modelo para garantir o registro do sequelize
 import './src/models/user.model.js';
